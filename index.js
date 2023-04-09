@@ -11,13 +11,11 @@ server.db = router.db;
 
 server.use(middlewares);
 
-// const rules = auth.rewriter({
-//     users: 640,
-//     conversations: 660,
-//     messages: 660,
-// });
+const rules = auth.rewriter({
+    users: 640,
+});
 
-// server.use(rules);
+server.use(rules);
 server.use(auth);
 server.use(router);
 

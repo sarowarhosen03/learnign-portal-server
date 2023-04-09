@@ -48,6 +48,13 @@
       "role": "student",
       "name": "Arif",
       "id": 7
+    },
+    {
+      "email": "email@email.com",
+      "password": "$2a$10$BHNflc3GWEYnMPhwr2CB7uR0k6okgaJHjYgSV3N/8PE6hMGoOdYvC",
+      "name": "shuvo",
+      "role": "STUDENT",
+      "id": 8
     }
   ],
   "videos": [
